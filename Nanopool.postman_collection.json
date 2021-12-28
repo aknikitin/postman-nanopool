@@ -1,0 +1,402 @@
+{
+	"info": {
+		"_postman_id": "f4b28406-fdaa-4f0d-84a2-36368fa78ae0",
+		"name": "Nanopool",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Account Balance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/balance/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"balance",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Average Hashrate for Period",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/avghashratelimited/{{nanopool_address}}/{{nanopool_history_hours}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"avghashratelimited",
+						"{{nanopool_address}}",
+						"{{nanopool_history_hours}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Average Hashrates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/avghashrate/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"avghashrate",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Chart Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/hashratechart/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"hashratechart",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Miner Account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/accountexist/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"accountexist",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current Hashrate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/hashrate/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"hashrate",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "General Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/user/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"user",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hashrate History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/history/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"history",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hashrate and Balance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/balance_hashrate/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"balance_hashrate",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Last Reported Hashrate for Account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/reportedhashrate/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"reportedhashrate",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of Workers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/workers/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"workers",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payments Last 24h",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/paymentsday/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"paymentsday",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/payments/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"payments",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Share Rate History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/shareratehistory/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"shareratehistory",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Workers Average Hashrate for Period",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/avghashrateworkers/{{nanopool_address}}/{{nanopool_history_hours}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"avghashrateworkers",
+						"{{nanopool_address}}",
+						"{{nanopool_history_hours}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Workers Average Hashrates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/avghashrateworkers/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"avghashrateworkers",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Workers Last Reported Hashrate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nanopool.org/v1/{{nanopool_coin}}/reportedhashrates/{{nanopool_address}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nanopool",
+						"org"
+					],
+					"path": [
+						"v1",
+						"{{nanopool_coin}}",
+						"reportedhashrates",
+						"{{nanopool_address}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
